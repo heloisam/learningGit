@@ -1,0 +1,4 @@
+1. Abertura de Merge/Pull Request: Serve para outra pessoa do time, avaliar (revisar) suas alterações (boas práticas de código, regras definidas pelo time, etc);
+2. Após realizar a revisão é possível aprovar ou não aprovar o merge request.
+3. Dando tudo certo, no final, é possível mergear e todas as alterações da branch feature/numero-da-task irá para a master.
+4. Caso não tenha mais ajustes pra fazer na branch feature/numero-da-task, é possível excluir essa branch.
