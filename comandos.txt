@@ -1,8 +1,0 @@
-Início:
-1. Criar Repositório no GitHub. Exemplo: (learningGit).
-2. Criar uma pasta no seu computador. Exemplo: (learningGit).
-3. Criar um arquivo dentro da pasta. Exemplo: (comandos.txt)
-
-Comandos Git:
-1. Subir Projeto no Repositório (GitHub).
-Quando: somente uma vez e depois vamos dando manutenção com outros comandos.

@@ -1,0 +1,14 @@
+Pra que serve: Atualizar nosso "perfil" local
+
+1. Caso exista uma branch diferente da que você possui na sua máquina local e você queira acessá-la, sem atualizar a branch que você está ou publicar as alterações que você esta modificando da branch atual, você precisará dar o (fetch).
+2. Crie uma nova branch pelo git, exemplo: feature/nomeDaBranchQueVcQuerAcessar
+3. Se você der: git checkout nomeDaBranchQueVcQuerAcessar, poderá dar o seguinte erro (pois não identificou ela):
+    error: pathspec 'nomeDaBranchQueVcQuerAcessar' did not match any file(s) known to git.
+4. Então execute o comando, digite:
+    ~/cursos-qa-helo/learningGit (feature/numero-da-task)
+    $ git fetch
+
+    From https://github.com/heloisam/learningGit
+    * [new branch]      feature/nomeDaBranchQueVcQuerAcessar -> origin/feature/nomeDaBranchQueVcQuerAcessar
+
+5. Pronto, você mudou de branch, sem precisar baixar as alterações de tudo que existe dentro do repositório e sem precisar publicar as alterações da sua branch anterior (feature/numero-da-task).
