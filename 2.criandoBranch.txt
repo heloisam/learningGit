@@ -1,0 +1,10 @@
+Como criar branchs no seu repositório:
+
+Pra que servem: 
+1. Branchs servem para nos ajudar a dividir o que está pronto do que está sendo desenvolvido e assim não "bagunçar" o que já está funcionando.
+Exemplo: Branch Master, é a nossa principal (nela contém todo o projeto)
+2. Quando criarmos uma branch nova, a partir da master, ela terá tudo o que a master tem + as alterações que faremos nela.
+3. No dia a dia, geralmente, é criado uma branch para cada atividade, exemplo: "feature/numero-da-task".
+4. Ao executarmos o comando abaixo, será criado a nova branch e "entraremos" nela diretamente, digite:
+
+$ git checkout -b feature/numero-da-task
