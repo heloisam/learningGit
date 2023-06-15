@@ -1,8 +1,32 @@
 Início:
-1. Criar Repositório no GitHub. Exemplo: (learningGit).
-2. Criar uma pasta no seu computador. Exemplo: (learningGit).
-3. Criar um arquivo dentro da pasta. Exemplo: (comandos.txt)
+1. Realizar o download e a instalação do GitBash na sua máquina.
+2. Logar no GitHub.
+3. Criar Repositório no GitHub. Exemplo: (learningGit). Sem adicionar readme.
+4. Criar uma pasta no seu computador. Exemplo: (learningGit).
+4. Criar um arquivo dentro da pasta. Exemplo: (comandos.txt)
 
 Comandos Git:
 1. Subir Projeto no Repositório (GitHub).
 Quando: somente uma vez e depois vamos dando manutenção com outros comandos.
+
+a) Acesse a pasta criada pelo gitBash
+~/cursos-qa-helo/learningGit
+
+b) Para iniciar, digite:
+$ git init
+
+c) Para adicionar todo o conteúdo da pasta criada na sua máquina, no repositório do GitHub, digite:
+$ git add .
+
+d) Para adicionar um comentário sobre o que será "commitado" no repositório do Git, digite:
+$ git commit -m "(Start)Subindo o projeto para o repositório git"
+
+e) Para levar para o GitHub, no repositório criado (learningGit), digite:
+$ git remote add origin https://github.com/heloisam/learningGit.git
+
+f) Para confirmar a subida da sua pasta local para o GitHub, digite:
+$ git push -u origin master
+
+g) Na primeira vez, será aberto um popup para você logar na sua conta do Git e Autorizar o Commit.
+
+h) Após autorizar ele irá finalizar o commit e suas alterações locais agora estão no repositório do GitHub.
